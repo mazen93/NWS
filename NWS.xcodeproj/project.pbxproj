@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0429149321DF68FD004DEFF6 /* categoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429149221DF68FD004DEFF6 /* categoryModel.swift */; };
 		04FBDED321DF5DC6004DB610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBDED221DF5DC6004DB610 /* AppDelegate.swift */; };
 		04FBDED521DF5DC6004DB610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBDED421DF5DC6004DB610 /* ViewController.swift */; };
 		04FBDED821DF5DC6004DB610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FBDED621DF5DC6004DB610 /* Main.storyboard */; };
 		04FBDEDA21DF5DC9004DB610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FBDED921DF5DC9004DB610 /* Assets.xcassets */; };
 		04FBDEDD21DF5DC9004DB610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FBDEDB21DF5DC9004DB610 /* LaunchScreen.storyboard */; };
+		04FBDEE521DF5F4E004DB610 /* DesignCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBDEE421DF5F4E004DB610 /* DesignCardView.swift */; };
+		04FBDEE721DF5FA4004DB610 /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBDEE621DF5FA4004DB610 /* VC1.swift */; };
+		04FBDEE921DF5FCA004DB610 /* HomeTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBDEE821DF5FCA004DB610 /* HomeTVCell.swift */; };
+		8B8B746E8445AE9CAFB87C5A /* Pods_NWS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA3B62E09179FAF9C459A26 /* Pods_NWS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0429149221DF68FD004DEFF6 /* categoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryModel.swift; sourceTree = "<group>"; };
 		04FBDECF21DF5DC6004DB610 /* NWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FBDED221DF5DC6004DB610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FBDED421DF5DC6004DB610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		04FBDED921DF5DC9004DB610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FBDEDC21DF5DC9004DB610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FBDEDE21DF5DC9004DB610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FBDEE421DF5F4E004DB610 /* DesignCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignCardView.swift; sourceTree = "<group>"; };
+		04FBDEE621DF5FA4004DB610 /* VC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		04FBDEE821DF5FCA004DB610 /* HomeTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVCell.swift; sourceTree = "<group>"; };
+		336B7222B42C5C5A229221C4 /* Pods-NWS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWS.release.xcconfig"; path = "Pods/Target Support Files/Pods-NWS/Pods-NWS.release.xcconfig"; sourceTree = "<group>"; };
+		4D50F09F3BD744688F07AA1E /* Pods-NWS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NWS/Pods-NWS.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA3B62E09179FAF9C459A26 /* Pods_NWS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NWS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8B746E8445AE9CAFB87C5A /* Pods_NWS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				04FBDED121DF5DC6004DB610 /* NWS */,
 				04FBDED021DF5DC6004DB610 /* Products */,
+				57FBB897DFA67FAC93CFC0C5 /* Pods */,
+				CA90A38B35E844399E818BB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,35 @@
 		04FBDED121DF5DC6004DB610 /* NWS */ = {
 			isa = PBXGroup;
 			children = (
+				04FBDEE821DF5FCA004DB610 /* HomeTVCell.swift */,
+				04FBDEE621DF5FA4004DB610 /* VC1.swift */,
+				04FBDEE421DF5F4E004DB610 /* DesignCardView.swift */,
 				04FBDED221DF5DC6004DB610 /* AppDelegate.swift */,
 				04FBDED421DF5DC6004DB610 /* ViewController.swift */,
 				04FBDED621DF5DC6004DB610 /* Main.storyboard */,
 				04FBDED921DF5DC9004DB610 /* Assets.xcassets */,
 				04FBDEDB21DF5DC9004DB610 /* LaunchScreen.storyboard */,
 				04FBDEDE21DF5DC9004DB610 /* Info.plist */,
+				0429149221DF68FD004DEFF6 /* categoryModel.swift */,
 			);
 			path = NWS;
+			sourceTree = "<group>";
+		};
+		57FBB897DFA67FAC93CFC0C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D50F09F3BD744688F07AA1E /* Pods-NWS.debug.xcconfig */,
+				336B7222B42C5C5A229221C4 /* Pods-NWS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA90A38B35E844399E818BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3B62E09179FAF9C459A26 /* Pods_NWS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FBDEE121DF5DC9004DB610 /* Build configuration list for PBXNativeTarget "NWS" */;
 			buildPhases = (
+				33CD90CF6A1A0B308723F30D /* [CP] Check Pods Manifest.lock */,
 				04FBDECB21DF5DC6004DB610 /* Sources */,
 				04FBDECC21DF5DC6004DB610 /* Frameworks */,
 				04FBDECD21DF5DC6004DB610 /* Resources */,
+				AD12D321A1173E877ADD756F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +168,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33CD90CF6A1A0B308723F30D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NWS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD12D321A1173E877ADD756F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NWS/Pods-NWS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ANLoader/ANLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ANLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NWS/Pods-NWS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04FBDECB21DF5DC6004DB610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FBDEE521DF5F4E004DB610 /* DesignCardView.swift in Sources */,
 				04FBDED521DF5DC6004DB610 /* ViewController.swift in Sources */,
+				04FBDEE921DF5FCA004DB610 /* HomeTVCell.swift in Sources */,
+				04FBDEE721DF5FA4004DB610 /* VC1.swift in Sources */,
 				04FBDED321DF5DC6004DB610 /* AppDelegate.swift in Sources */,
+				0429149321DF68FD004DEFF6 /* categoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +369,13 @@
 		};
 		04FBDEE221DF5DC9004DB610 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D50F09F3BD744688F07AA1E /* Pods-NWS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69H6G2XHVM;
 				INFOPLIST_FILE = NWS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +389,13 @@
 		};
 		04FBDEE321DF5DC9004DB610 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336B7222B42C5C5A229221C4 /* Pods-NWS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69H6G2XHVM;
 				INFOPLIST_FILE = NWS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
